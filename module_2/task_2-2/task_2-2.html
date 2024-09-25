@@ -10,33 +10,58 @@
       <span id="txtOut" style="white-space: nowrap"></span>
     </div>
     <ol>
-      <li>Where should you use constants, and where should you use variables? Can they all be constants?</li>
+      <li>1. Where should you use constants, and where should you use variables? Can they all be constants?</li>
       <p>
-				[Replace this with you answer]
+				Constants can be used for values that will remain unchanged. They can help with keeping your code tidy, as you only need to change the value
+        in one place, instead of going through yout whole code and change several places. 
+        It is also easier for understanding the code if you give your values names, so you know what they are used for instead of having to remember
+        every values task.
+
+        Variables can be used for data that possibly can change throughout you coding, such as user input, changes or temporary values that is going
+        to be updated. If you use data that can vary, for example database input, you will need to use variables.
+
+        They can not all be constants, because this can cause errors in your program, and to create a dynamic, useable code you will need to have variables.
 			</p>
-      <li>How do parentheses affect the arithmetic outcome of an expression?</li>
+
+      
+      <li>2. How do parentheses affect the arithmetic outcome of an expression?</li>
       <p>
-				[Replace this with you answer]
+				Parenthesese make it so that the computer knows what to do first.
 			</p>
-      <li>How do we limit floating-point numbers to a given number of decimals?</li>
+
+
+      <li>3. How do we limit floating-point numbers to a given number of decimals?</li>
       <p>
-				[Replace this with you answer]
+				The method to limit floating-point values to a given number of decimals is to use the toFixed().
 			</p>
-      <li>How can we compare two floating-point values to see if they are equal (is 12.199999 the same as 12.2)?</li>
+
+
+      <li>4. How can we compare two floating-point values to see if they are equal (is 12.199999 the same as 12.2)?</li>
       <p>
-				[Replace this with you answer]
+				We can use Math.abs(a - b) to compare the value of two floating numbers.
 			</p>
-      <li>What do comparison operators return, and how can we check if they are FALSE or TRUE?</li>
+
+
+      <li>5. What do comparison operators return, and how can we check if they are FALSE or TRUE?</li>
       <p>
-				[Replace this with you answer]
+				The comparison operator returns a boolean value wich either comes out as true or false, depending on if the comparison evaluates to true or false. 
+        you can check if the statement is true or false by using if-statements. You can also check the result of comparison by logging it. 
+        If you want to only check if a comparison is false, you can use the "!".
 			</p>
-      <li>How does the Math.random() function work, and what can it be used for?</li>
+
+
+      <li>6. How does the Math.random() function work, and what can it be used for?</li>
       <p>
-				[Replace this with you answer]
+				The Math.random() function work by giving the program a value range, f.ex (1 - 100), and it will then choose a value that is inside of that range.
+        It can be used for generating a dice roll, if you choose a value between 1 and 6. And many more things random.
 			</p>
-      <li>What is modulus (%), and when do we need this operator in mathematical operations?</li>
+
+
+      <li>7. What is modulus (%), and when do we need this operator in mathematical operations?</li>
       <p>
-				[Replace this with you answer]
+				Modulus(%) gives us the rest of a value. For example if you slice a cake in to four pieces and give out to three people, the modulus will then give 
+        you the value of what is left of the cake, in this example the answer would be one. 
+        You can use it to check if a number is even or odd, the module does this by checking if the number is divisible by 2.
 			</p>
     </ol>
 		<script type="module" src="./task_2-2.mjs" defer></script>
