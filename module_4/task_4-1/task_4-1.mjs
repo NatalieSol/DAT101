@@ -4,6 +4,10 @@ initPrintOut(document.getElementById("txtOut"));
 
 printOut("--- Part 1 ----------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
+const normal = "Brukskonto";
+const 
+const
+const
 printOut("Replace this with you answer!");
 printOut(newLine);
 
