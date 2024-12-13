@@ -70,6 +70,7 @@ add the word to the task2Words array and print how many words and all the words 
 Clear the input field every time the user presses "enter" or "return".
 
  * Tip: txtTask2Word.addEventListener("keypress", txtTask2WordKeyPress)*/
+
 const txtTask2Word = document.getElementById("txtTask2Word");
 txtTask2Word.addEventListener("keypress", txtTask2WordKeyPress);
 let task2Words = [];
@@ -125,12 +126,6 @@ function cmbTask3CheckAnswerClick() {
 //--- Part 4 ----------------------------------------------------------------------------------------------
 /* Use a for-loop to add "radio" buttons to the divTask4Cars element. Get the values from the CarTypes
 array. Print the selected car in txtTask4Output.
-
-for(CarTypes.forEach){
-  let x = document.createElement("INPUT");
-  x.setAttribute("type", "radio");
-  document.body.appendChild(x);
-}
 */
 
 const divTask4Cars = document.getElementById('divTask4Cars');
@@ -177,9 +172,7 @@ function selectTask5AnimalsChange(){
 /* Take all the names from the GirlsNames array and add them to the selectTask6Girls element.
 Create an event function in the same way as in task 5 and print the name the user selects in
 txtTask6Output.*/
-/*
-const GirlsNames = ["Anne", "Inger", "Kari", "Marit", "Ingrid", "Liv", "Eva", "Berit", "Astrid", "Bjørg",
-  "Hilde", "Anna", "Solveig", "Marianne", "Randi", "Ida", "Nina", "Maria", "Elisabeth", "Kristin"];*/
+
 
 const selectTask6Girls = document.getElementById("selectTask6Girls");
 const txtTask6Output = document.getElementById("txtTask6Output");
