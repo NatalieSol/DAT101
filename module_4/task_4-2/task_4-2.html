@@ -10,8 +10,57 @@
       <span id="txtOut" style="white-space: nowrap"></span>
     </div>
     <ol>
-      <li>[Write the question here, and copy this for more questions]</li>
-      <p>[Write your answer here, and copy this for more answers]</p>
+      <li>[1. What is an array? A short and concise answer is expected here!]</li>
+      <p>[In JavaScript, an array is a data structure that contains multiple values in one single variable. You can access the elements by their index, 
+        modify them, and use various built-in methods to manipulate the data. Arrays are essential for handling lists and collections.]</p>
+
+      <li>[2. What does it mean to "hardcode" when we talk about programming? (In English, it's called "hard
+        coding", "hard-coding", or "hardcoding").]</li>
+      <p>[Hard coding means to put the values directly into your code, rather than getting them from external sources. These values will typically be 
+        constants. Hard coding can make the program less flexible and difficult to maintain as changes will have to be made directly in to the code. ]</p>
+
+      <li>[3. Explain in plain text what happens in task 3, and how we can traverse (iterate) the array when we
+        (humans) don't "know" how long the array is.]</li>
+      <p>[To go through this array without knowing the length beforehand we use the method "every". This method will run through each element in the array
+        and do a function for each element. The function everyWord will take two parameters; aWord, which is the string in the array.
+        and aIndex wich is the index of the array. When we dont know the length of the array we can use a for-loop or imbedded methods like forEach which will automatically go through
+        all elements of the array. ]</p>
+
+      <li>[4. Why is it beneficial to store instances of a class in arrays, as in task 4?]</li>
+      <p>[It can be beneficial because it allows you to organize related data together in a well structured way.
+        It makes the arrays easy to access and modify. It makes the code easier to use, instead of managing individual variables you can instead use for 
+        loops and array operations.]</p>
+
+      <li>[5. Try your best to explain the EWeekDays object from task 7. How do we use the "value" attribute, for
+        example? In what way do "WeekDay", "Workdays", and "Weekends" differ from each other? If we
+        wanted to create a new element "WorkoutDays", which would contain "Monday", "Wednesday", and
+        "Thursday", how would it ideally look? (I will choose the best answer to this task and reward it with
+        pizza in the cafeteria right after New Year. Remember to mark in your submission if you want to
+        participate in the competition!)]</li>
+      <p>[The EWeekDays object organizes weekdays into key values. The keys in the code in exercise 7 will be represented as WeekDay1, Workdays and Weekends. 
+        The values ​​are the objects that contain attributes: the value is set in the numerical representation of the day of the week, while the name is set as a 
+        human-readable name of the day of the week. Type is set as additional information such as e.g. "Holiday" for Sunday. The Value attribute uses piecewise attributes 
+        to represent individual days or groups of days. These values ​​are powers of 2 in hexadecimal notation (0x01, 0x02, etc.) so they can be uniquely combined using addition or piecewise operations. 
+        The difference between "WeekDay", "Workdays" and "Weekends": WeekDay represents a simple day and includes attributes such as value and name. Workdays combine multiple weekdays (Monday-Friday) 
+        into a single entry by summing their value attributes. Weekends combines Saturday and Sunday to represent "Weekend. If one wishes to add "WorkoutDays" which includes Monday, Wednesday and Thursday, 
+        then you have to combine these days' value attributes (0x01 + 0x03 + 0x08). EWeekDays.WorkoutDays = { value: 0x01 + 0x03 + 0x08, name: "Treningsdager" } Here, these days have been included in WorkoutDays.]</p>
+
+      <li>[6. In task 8, we will use a "callback" routine when sorting. Explain how such a "callback" routine works.]</li>
+      <p>[A "callback" is a function passed as an argument to another function, which is then executed after the completion of that function. Callbacks are commonly used for asynchronous operations, such as handling 
+        events or performing tasks after a delay. It can be used to sort an array in different order.]</p>
+
+      <li>[7. What happens in the sorting routines you have created? Try to explain how the array can figure out
+        if an element should come before or after another. The best way to answer this is to actually print
+        both parameters each time the sorting routine runs.]</li>
+      <p>[In sorting routines, the elements of the array are compared two and two to determine which one should come before the other. 
+        Each time the routine runs, two elements are compared, and if the first element is greater than the second, they are swapped.]</p>
+
+      <li>[8. In task 10, we will create an array with rows and columns. Explain what the first element of the array
+        contains.]</li>
+      <p>[The first element of myTable is the first row. A row is an array that contains values ​​for each column in that row.
+        The first element of myTable is: ["0.0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8"]
+        This represents all the cells in the first row,
+        where each cell tells which row and column it is in.]</p>
     </ol>
     <script type="module" src="./task_4-2.mjs" defer></script>
   </body>
