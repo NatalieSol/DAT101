@@ -1,0 +1,61 @@
+/* Main CSS file for the site (all pages)*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  background: linear-gradient(to bottom, rgb(170, 243, 220), #fe9ff9);
+  
+}
+
+section {
+  height: 100vh;
+}
+
+/* Header - content vises alltid i toppen */
+.header-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(170, 243, 220);
+  position: sticky;
+  top: 0;
+}
+
+.body-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+.footer-content{
+  display: flex;
+  height: 30px;
+  width: 100%;
+  background-color: #fe9ff9;
+  position: fixed;
+  bottom: 0;
+}
+/* Header - content vises alltid i toppen
+header {
+  background-color: #3333;
+  color: white: #3333;
+  text-align: center;
+  padding: 1cm;
+  border:
+} */
